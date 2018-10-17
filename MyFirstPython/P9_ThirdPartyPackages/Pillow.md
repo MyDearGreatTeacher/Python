@@ -9,6 +9,11 @@
 
 安装Pillow==>sudo pip install pillow
 
+https://pillow.readthedocs.io/en/5.1.x/reference/Image.html
+
+PIL.Image.open(fp, mode='r')
+
+
 ##### 應用範例:圖片模糊特效
 ```
 from PIL import Image, ImageFilter
@@ -23,6 +28,23 @@ im2 = im.filter(ImageFilter.BLUR)
 im2.save('cat_blur.jpg', 'jpeg')
 ```
 
+### 應用範例:圖片縮放特效Create thumbnails
+
+```
+The following script creates nice thumbnails of all JPEG images in the current directory 
+preserving aspect ratios with 128x128 max resolution.
+
+from PIL import Image
+import glob, os
+
+size = 128, 128
+
+for infile in glob.glob("*.jpg"):
+    file, ext = os.path.splitext(infile)
+    im = Image.open(infile)
+    im.thumbnail(size)
+    im.save(file + ".thumbnail", "JPEG")
+```
 ##### 應用範例:圖片縮放特效
 ```
 from PIL import Image
