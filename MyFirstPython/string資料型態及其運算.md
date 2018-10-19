@@ -12,27 +12,24 @@ string = ""
 stringa = str()
 id(string)
 id(stringa)
-
+```
+```
 stringb = str("MyfirstCTF")
 
 string1 = "I love you"
 ```
 
-#### str 類別有許多方法(運算子)與函數
+#### str 類別有許多方法(運算子)與函數:
 ```
+stringb = str("MyfirstCTF")
+string1 = "I love you"
+
 len(stringb)
 max(stringb)
 min(stringb)
-索引運算子[]
 ```
 
-#### str 類別的+、 *、 [ : ] 與 in 運算子
-```
-s = '}FTC NOCTIH ot emocleW{noctih'
-
-''.join(reversed(s))
-```
-#### replace()取代
+#### replace():取代
 ```
 string1 = "I love you"
 string1.replace("love","hate")
@@ -42,6 +39,13 @@ string1.replace("love","hate")
 '_'.join("Dragon")
 'x'.join("Dragon")
 ```
+
+```
+s = '}FTC NOCTIH ot emocleW{noctih'
+
+''.join(reversed(s))
+```
+
 #### split()
 ```
 string1 = "I love you"
@@ -52,6 +56,7 @@ string1.split()
 ```
 #### upper() swapcase()
 ```
+string1 = "I love you"
 string1.upper()
 string1.swapcase()
 ```
@@ -72,7 +77,7 @@ s[0:3]
 s[::2]
 s[::-1]
 ```
-
+#### str 類別的+、 *、 [ : ] 與 in 運算子
 
 ### 字串(string)的應用:編碼與解碼
 
