@@ -1,5 +1,7 @@
 # Python開發環境
 
+# Python開發環境@windwos
+
 ### Python開發環境@windwos
 ```
 下載python
@@ -25,6 +27,7 @@ C:\p3code>python hello.py
 ```
 Anaconda 
 ```
+# Python開發環境@Linux
 
 ### Python開發環境@Ubuntu 16.04 LTS 64-bit
 
