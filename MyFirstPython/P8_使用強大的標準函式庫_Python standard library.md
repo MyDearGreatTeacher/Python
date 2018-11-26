@@ -10,6 +10,8 @@ Python 3標準庫 THE PYTHON 3 STANDARD LIBRARY BY EXAMPLE
 
 https://docs.python.org/3/
 連上去看看有許多範例 https://pymotw.com/3/
+
+https://bitbucket.org/dhellmann/pymotw-3/downloads/
 ```
 ```
 第1章 文本 1
