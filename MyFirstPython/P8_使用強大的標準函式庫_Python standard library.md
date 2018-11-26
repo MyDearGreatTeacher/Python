@@ -1,11 +1,10 @@
-# Python standard library
+# Python standard library標準函式庫
 
 >* Python有許多內建的函式庫(可以寫成幾本書)
->* 不需安裝即可使用(第三方套件需要安裝==>Tensorflow/PyTorch)
+>* 不需安裝即可使用(第三方套件需要安裝==>如人工智慧的Tensorflow/PyTorch/OpenAI gym)
 >* 使用時請import載入相關函式庫即可
->* 
 
-# 第三方套件參考書
+# standard library標準函式庫[參考書]
 ```
 Python 3標準庫 THE PYTHON 3 STANDARD LIBRARY BY EXAMPLE
 
