@@ -20,6 +20,86 @@ Collection Data Types組合類型資料型態
 辭典|字典(dic)資料型態及其運算
 集合(set)資料型態及其運算
 ```
+# 字串(string)資料型態及其運算
+```
+Python不支援單字元類型，單字元在 Python 中也是作為一個字串使用。
+Python訪問子字串，可以使用方括號來截取字串
+```
+```
+#!/usr/bin/python
+ 
+var1 = 'Hello World!'
+var2 = "Python Runoob"
+ 
+print "var1[0]: ", var1[0]
+print "var2[1:5]: ", var2[1:5]
+```
+# 列表|串列(list)資料型態及其運算[底下程式請用python 2執行]
+```
+#!/usr/bin/python
+ 
+list1 = ['physics', 'chemistry', 1997, 2000]
+list2 = [1, 2, 3, 4, 5, 6, 7 ]
+ 
+print "list1[0]: ", list1[0]
+print "list2[1:5]: ", list2[1:5]
+```
+
+```
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+ 
+list = []          ## 建立空的list
+list.append('Google')   ## 使用 append() 添加元素
+list.append('KSU當選')
+print list
+```
+
+# 辭典|字典(dic)資料型態及其運算
+
+dict = {key1 : value1, key2 : value2 }
+```
+dict = {'a': 1, 'b': 2, 'b': '3'}
+dict['b']
+dict
+
+dict['b']==>答案為何?
+dict會印出甚麼?
+
+HINT:鍵一般是唯一的，如果重複最後的一個鍵值對會替換前面的，值不需要唯一。
+```
+
+```
+【程式閱讀題】下列程式執行後結果為何??
+
+
+#!/usr/bin/env python
+#coding=utf-8
+ 
+dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
+ 
+print "dict['Name']: ", dict['Name']
+print "dict['Age']: ", dict['Age']
+```
+
+### 辭典|字典(dic)的運算:更新字典內容
+```
+#!/usr/bin/env python
+#coding=utf-8
+
+dict = {'Name': 'Zara', 'Age': 27, 'Class': 'First'}
+ 
+dict['Age'] = 38 
+dict['School'] = "KSU" 
+ 
+print "dict['Age']: ", dict['Age']
+print "dict['School']: ", dict['School']
+```
+### 字典內置函數&方法
+```
+http://www.runoob.com/python/python-dictionary.html
+```
+
 ### 運算子:
 >* Arithmetic Operators算術運算子
 >* 餘數運算子 (remainder|modulo)
