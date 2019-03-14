@@ -1,5 +1,8 @@
 # Python開發環境
-
+```
+from google.colab import files
+uploaded = files.upload()
+```
 # Python開發環境@windwos
 
 ### Python開發環境@windwos
