@@ -1,5 +1,9 @@
 # Python  學習資源
+```
+CoreyMSchafer/code_snippets
+https://github.com/CoreyMSchafer/code_snippets
 
+```
 ```
 All Algorithms implemented in Python
 https://github.com/TheAlgorithms/Python
